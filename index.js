@@ -67,5 +67,9 @@ app.get('/personalData', (req, res) => {
     })
 });
 
+//create port
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => console.log('app connected'))
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
