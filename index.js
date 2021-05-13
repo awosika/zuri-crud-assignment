@@ -68,4 +68,4 @@ app.get('/personalData', (req, res) => {
 });
 
 
-app.listen(6000, () => console.log('app connected'))
+app.listen(3000, () => console.log('app connected'))

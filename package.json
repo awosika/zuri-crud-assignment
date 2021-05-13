@@ -2,10 +2,13 @@
   "name": "zuri-crud-assignment",
   "version": "1.0.0",
   "description": "learning with the ZuriTeam",
+  "engines": {
+    "node": "14.16.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
